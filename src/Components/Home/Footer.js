@@ -7,6 +7,7 @@ const Footer = () => {
         <p>&copy; 2023 Farm-Bot</p>
       </div>
     </footer>
+    //this is a test
   );
 };
 
