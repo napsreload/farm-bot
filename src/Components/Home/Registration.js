@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Footer from './Footer';
 
 const FarmingRegistrationForm = () => {
@@ -109,8 +110,13 @@ const FarmingRegistrationForm = () => {
         <br />
 
         <button type="submit">Submit</button>
+        
+
       </form>
-      <Foooter />
+      <br />
+      <br />
+      <Footer />
+      <br />
     </div>
   );
 };

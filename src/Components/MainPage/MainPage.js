@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../Home/Footer';
 
 function MainPage() {
   return (
@@ -24,6 +25,7 @@ function MainPage() {
           </li>
         </ul>
       </nav>
+      <Footer />
     </div>
   );
 }

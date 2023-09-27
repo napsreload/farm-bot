@@ -6,22 +6,47 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(21, 84, 21);
-  background-size: 60;
-
+  background-size: 40;
+ 
  
 }
 
+Image {
 
+background-image: ;
+
+}
 
 
 body h2 {
   color: rgb(14, 100, 14);
     background-color: bisque;
-    padding: 30px;
+    padding: 15px;
     border-radius: 10px;
+  }
 
 
+body button {
+  display: -ms-inline-flexbox;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: bisque;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
+
+
+body button:hover {
+  background-color: #2980b9;
+}
+
+body button:active {
+  background-color: #1abc9c;
+}
+
+
+
 
 
 footer {
@@ -31,7 +56,7 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: bisque;
-  padding: 10px;
+  padding: -30px;
 }
 
 
@@ -48,7 +73,7 @@ code {
   margin: auto;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 25px;
   background-color: #0056b3;
 }
 
@@ -70,16 +95,5 @@ input {
   font-size: 16px;
 }
 
-.signup-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: green;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
-.signup-button:hover {
-  background-color: #0056b3;
-}
+  
